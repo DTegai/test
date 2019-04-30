@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_perm_identity_24px"
+            android:title="Обо мне" />
+        <item
+            android:id="@+id/nav_degree"
+            android:icon="@drawable/ic_baseline_school_24px"
+            android:title="Мое образование" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/ic_baseline_work_24px"
+            android:title="Моя диссертация" />
+        <item
+            android:id="@+id/nav_plans"
+            android:icon="@drawable/ic_baseline_event_24px"
+            android:title="Мои планы" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_contact_mail_24px"
+            android:title="Контакты"
+            />
+    </group>
+
+
+
+</menu>

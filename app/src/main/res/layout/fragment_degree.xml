@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DegreeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мое образование"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Я окончил СПбГУТ им. проф. Бонч-Бруевича по направлению - Радиотехника. Далее последовало получение магистерской степени. Все в том же вузе, но уже по направлению: Медиатехнологии в цифровом телерадиовещании"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlansFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои планы"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:padding="30dp"
+        android:text="Несмотря на всю прелесть инженерии, я решил, что способен на большее. И пока я молод и голова готова впитывать новые знания, я решил заняться программированием. Этот курс - только начало моего пути!"/>
+
+
+</LinearLayout>
